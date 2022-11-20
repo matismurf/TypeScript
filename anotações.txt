@@ -7,3 +7,22 @@ pelas variáveis e devemos indicar o tipo de dados que determinada variável vai
 receber na hora de sua criação
 -para fazer uma variável que aceite qualquer tipo podemos usar "variavel:any"
 -você pode 'criar seu próprio tipo de variável' através do "type myIdType="
+-o "enum" serve para 'criar atalhos para valores armazenados em variáveis'
+-o literal type "let variavelNome: valor" serve para aquela variável não aceitar
+valor nenhum que não seja o declarado na sua criação
+-é possivel declarar na hora de criação de uma função, o tipo de valor que ela irá
+aceitar como parâmetro e o tipo de valor que ela irá retornar. exemplo:
+"function nomeFuncao(varParametro: tipoParametro): tipoRetorno{...}"
+-é interessante explicitar quando a função não retorna valor algum inserindo "void"
+no local do tipo de retorno
+-para indicar que um parametro é opcional na função utilize "?" após o nome da
+variável de parametro
+-uma interface seria uma espécie de conjunto de variáveis pré estabelecidas
+"interface NomeInterface{lista das variáveis e seus tipos}"
+-narrowing é uma checagem de tipo, para dar um tratamento diferenciado baseado no
+tipo de dado que o parâmetro esta recebendo
+-ao implementar uma interface, você é obrigado a utilizar tudo que estiver declarado
+naquela interface
+-constructor é um método padrão que é chamado automaticamente quando a classe é
+invocada
+-para invocar a classe "cont NomeVariavel = new NomeClasse(parametros do constructor)"
